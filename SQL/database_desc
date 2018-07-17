@@ -1,0 +1,14 @@
+This file contains:
+- The creation of all tables used
+- Insert queries for airport and flights database
+- Index queries 
+- Foreign Key queries
+
+
+The design of the RDBMS is as follows:
+Database: flightsearch
+Tables: airport, flights, passenger
+
+airport : id(primary key), city, airport_name
+flights: id(primary key), flight_name, to_arpt(foriegn key), from_arpt(foriegn key), departure_date, departure_time, dest_arr_time, total-duration, price
+passenger: id(primary key), firstname,lastname,dob,category,guest
